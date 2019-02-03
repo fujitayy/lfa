@@ -1,0 +1,18 @@
+[package]
+name = "lfa"
+version = "0.1.0"
+authors = ["fujitayy <cat@y8m.org>"]
+edition = "2018"
+
+[[bin]]
+name = "lfa"
+path = "src/bin/lfa.rs"
+doc = false
+
+[dependencies]
+clap-verbosity-flag = "0.2.0"
+env_logger = "0.6.0"
+exitfailure = "0.5.1"
+failure = "0.1.5"
+log = "0.4.6"
+structopt = "0.2.14"
